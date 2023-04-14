@@ -7,13 +7,15 @@ NOTE: It's dangerous to use it in real machine, so please run it in virtual mach
 ## How to use
 Download the latest release or compile it.
 
-### How to lock the disk
-Open command prompt and enter `lockdisk \\.\PhysicalDrive<NUM> -l`.
+### How to lock/unlock the disk
+Lock: Open command prompt and enter `lockdisk \\.\PhysicalDrive<NUM> -l`.
+Unlock: Open command prompt and enter `lockdisk \\.\PhysicalDrive<NUM> -u`.
 Please replace `<NUM>` with your disk number.
 
-### How to unlock the disk
-Open command prompt and enter `lockdisk \\.\PhysicalDrive<NUM> -u`.
-Please replace `<NUM>` with your disk number.
+### How to lock/unlock the virtual disk file (current only support RAW format)
+Lock: Open command prompt and enter `lockdisk <path> -l`.
+Unlock: Open command prompt and enter `lockdisk <path> -u`.
+Please replace `<path>` with your virtual disk file.
 
 ## How to unlock the disk if you can't boot
 ### For IDE disk
