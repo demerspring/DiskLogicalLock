@@ -2,7 +2,7 @@
 
 ## What can it do
 It can lock your disk and make your disk unbootable, and you can't start Windows, Windows RE / PE, MS-DOS or even linux. \
-NOTE: It's dangerous to use it in real machine, so please run it in virtual machine.
+**NOTE: It's dangerous to use it in real machine, so please run it in virtual machine.**
 
 ## How to use
 Download the latest release or compile it.
